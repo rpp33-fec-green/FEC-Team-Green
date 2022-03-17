@@ -22,7 +22,7 @@ const Overview = (props) => {
   // product overview will contain
   //  id, name, slogan, description, category, default_price, features (an array)
   const [selectedStyle, setSelectedStyle] = useState({skus: {}, size: 0});
-  const [hasReviews, setHasReviews] = useState(false);
+  const [hasReviews, setHasReviews] = useState(true);
 
 
   //

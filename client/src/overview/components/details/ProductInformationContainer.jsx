@@ -15,9 +15,10 @@ const ProductInformationContainer = (props) => {
   if (props.product && Object.keys(props.product).length > 1) {
     return (
       <div className='information panel'>
-        {/* <div className='stars'>stars</div> */}
-        <StarRating rating={3.5}/>
-        <ReadReviewsLink></ReadReviewsLink>
+        <div id={'stars-reviews'}>
+          <StarRating rating={3.5}/>
+          <ReadReviewsLink hasReviews={props.hasReviews}></ReadReviewsLink>
+        </div>
         {props.product.category ? <h2 className='category'>{props.product.category}
         </h2> : <h2 className='category ghost'>...loading
         </h2>}
