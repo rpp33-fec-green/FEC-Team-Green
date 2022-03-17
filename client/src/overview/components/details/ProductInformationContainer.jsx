@@ -10,9 +10,7 @@ const ProductInformationContainer = (props) => {
   // star_rating
   // default_price
   // id
-  console.log('originalPrice->', props.original_price);
-  console.log('salePrice', props.sale_price);
-  console.log('default', props.product.default_price);
+
 
   if (props.product && Object.keys(props.product).length > 1) {
     return (
@@ -25,8 +23,6 @@ const ProductInformationContainer = (props) => {
         </h2>}
         { props.product.name ? <h1 className='name'>{props.product.name}</h1> : <h1 className='name ghost'>...loading</h1>
         }
-
-        {/* { props.sale_price ? <span><p className='price-sale'>${props.sale_price}</p> <p className='price-struck'>${props.original_price}</p> </span> : props.original_price ? <p className='price'>${props.original_price}</p> : <p className='price ghost'>...loading</p> } */}
 
         {props.original_price ? props.sale_price ?
           <span><p className='price-sale'>${props.sale_price}</p> <p className='price-struck'>${props.original_price}</p> </span> :
