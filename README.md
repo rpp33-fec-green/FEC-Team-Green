@@ -6,9 +6,9 @@
 
   2. <a href='#installation'> Installation</a>
 
-  3. <a href='#usage'> Usage</a>
+  3. <a href='#project-widgets'> Project Widgets</a>
 
-  4. <a href='#project-widgets'> Project Widgets</a>
+  4. <a href='#dark-mode'> Dark Mode</a>
 
   5. <a href='#team-members'> Team Members</a>
 
@@ -73,9 +73,13 @@ GITHUB_API_KEY=123Jkldsufihflka32484r703utirjk
 ![fec-answer-GIF](https://user-images.githubusercontent.com/89096566/174423967-17b0c8cd-4a85-49c8-8142-a9fac38acecc.gif)
 
 ---
-  ### Ratings and  Reviews
+  ### Ratings and Reviews
 * TBD
+---
+  ## Dark Mode
 
+![fec-darkMode-GIF](https://user-images.githubusercontent.com/89096566/174424293-53755bd7-26c7-4907-a9e7-4d9a9d6e1e5e.gif)
+  
 ---
   ## Team Members
 
