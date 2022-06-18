@@ -53,10 +53,24 @@ GITHUB_API_KEY=123Jkldsufihflka32484r703utirjk
 ---
   ### Questions and Answers
 * This feature displays any questions associated with this product along with any anwsers associated with each question. The user is able to load more questions (2 at a time) using the "More Answered Questions" button which will disappear if there are no more questions. They are also able to load the rest of the answers by clicking the "Load More Answers" text and only show 2 answers by clicking the "Collapse Answers" text. 
+
+![fec-moreButtons-GIF](https://user-images.githubusercontent.com/89096566/174423932-40b9f789-b3e5-4970-94c2-9c7884c4e9ae.gif)
+
 * The search bar allows the user to filter the questions according to their search query of three or more characters. 
+
+![fec-search-GIF](https://user-images.githubusercontent.com/89096566/174423937-2510880e-a260-4c66-9d3d-8942b3f69b60.gif)
+
 * The user is able indicate if a question or answer is helpful once. They are also able report an answer once.
+
+![fec-helpfulReport-GIF](https://user-images.githubusercontent.com/89096566/174423949-1b6951c8-2a40-4c12-807a-63d58bc85c5c.gif)
+
 * A modal window appears when the "Add a Question +" button is clicked. The user is able to add a question about the product.
+
+![fec-question-GIF](https://user-images.githubusercontent.com/89096566/174423957-4c45039d-87c8-4c16-ab3d-939802d3ca94.gif)
+
 * A modal window appears when the "Add Answer" link is clicked. The user is able to add an answer for a particular question with the option to include photos.
+
+![fec-answer-GIF](https://user-images.githubusercontent.com/89096566/174423967-17b0c8cd-4a85-49c8-8142-a9fac38acecc.gif)
 
 ---
   ### Ratings and  Reviews
