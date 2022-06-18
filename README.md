@@ -15,7 +15,7 @@
 
 ---
  ## Description
-  We have a cohesive, visualy appealing, and user-friendly website using industry standard practices. Our project includes four main areas of interest in the following order:
+  We have a cohesive, visualy appealing, and user-friendly website using industry standard practices. Our project includes three main areas of interest in the following order:
 
   - <a href='#product-overview'> Product Overview</a> -created by Chloe Meinshausen.
   - <a href='#questions-and-answers'> Questions and Answers</a>  -created by Joann Whang
@@ -45,11 +45,6 @@ GITHUB_API_KEY=123Jkldsufihflka32484r703utirjk
   6. run  `npm start`  to start our server and serve our client facing app.
 
   *  please review our **package-lock.json** file for the most updated list of dependencies
-
----
-  ## Usage
-  This is our Front End Capstone project designed to demonstrate our front end skills and knowledge as software engineers.
-
 ---
  ## Project Widgets
 ---
