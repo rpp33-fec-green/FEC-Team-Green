@@ -52,7 +52,7 @@ GITHUB_API_KEY=123Jkldsufihflka32484r703utirjk
 * TBD
 ---
   ### Questions and Answers
-* This feature displays any questions associated with this product along with any anwsers associated with each question. The user is able to load more questions (2 at a time) using the "More Answered Questions" button which will disappear if there are no more questions. They are also able to load the rest of the answers by clicking the "Load More Answers" text and only show 2 answers by clicking the "Collapse Answers" text. 
+* This feature displays any questions associated with this product along with any answers associated with each question. The user can load more questions (2 at a time) using the "More Answered Questions" button which will disappear if there are no more questions. They are also able to load the rest of the answers by clicking the "Load More Answers" text and only show 2 answers by clicking the "Collapse Answers" text.
 
 ![fec-moreButtons-GIF](https://user-images.githubusercontent.com/89096566/174423932-40b9f789-b3e5-4970-94c2-9c7884c4e9ae.gif)
 
@@ -60,7 +60,7 @@ GITHUB_API_KEY=123Jkldsufihflka32484r703utirjk
 
 ![fec-search-GIF](https://user-images.githubusercontent.com/89096566/174423937-2510880e-a260-4c66-9d3d-8942b3f69b60.gif)
 
-* The user is able indicate if a question or answer is helpful once. They are also able report an answer once.
+* The user can indicate if a question or answer is helpful once. They are also able to report an answer once.
 
 ![fec-helpfulReport-GIF](https://user-images.githubusercontent.com/89096566/174423949-1b6951c8-2a40-4c12-807a-63d58bc85c5c.gif)
 
