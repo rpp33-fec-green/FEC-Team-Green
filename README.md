@@ -74,7 +74,29 @@ GITHUB_API_KEY=123Jkldsufihflka32484r703utirjk
 
 ---
   ### Ratings and Reviews
-* TBD
+* The Ratings & Reviews module will allow viewing and submission of reviews for the product selected. The functionality contained within this module can be divided into several pieces:
+1. Write new review
+2. Reviews List
+3. Sorting 
+4. Rating Breakdown
+5. Product Breakdown
+
+* Reviews list and Sorting 
+
+
+https://user-images.githubusercontent.com/88808070/175217046-2c02b1c8-bdb1-42d9-a20e-79d93eca3add.mov
+
+* Rating & product breakdown: a breakdown of the ratings received for the product will double as the filtering options for the reviews list
+
+
+https://user-images.githubusercontent.com/88808070/175217796-3f04ed90-2a21-447b-a931-c2c5bc2fa07d.mov
+
+* Create a new review for the product 
+
+
+https://user-images.githubusercontent.com/88808070/175218424-8d3e0aaf-1d2c-4b15-8d45-479d5d5e9663.mp4
+
+
 ---
   ## Dark Mode
 
