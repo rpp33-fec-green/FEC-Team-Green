@@ -16,12 +16,15 @@ html { scroll-behavior: smooth; }
   grid-template-rows: 1fr 1fr 1fr;
 }
 #read-reviews{
-  position: absolute;
-  right: 441px;
-  top: 48px;
+  position: relative;
+  /* right: 441px; */
+  /* top: 48px; */
   text-decoration: underline;
   font-size: .7em;
   display: none;
+}
+#stars-reviews {
+  display: flex;
 }
 #icon-tag{
   font-size: .4em;

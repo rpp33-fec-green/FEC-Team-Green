@@ -22,6 +22,7 @@ const Overview = (props) => {
   // product overview will contain
   //  id, name, slogan, description, category, default_price, features (an array)
   const [selectedStyle, setSelectedStyle] = useState({skus: {}, size: 0});
+  const [hasReviews, setHasReviews] = useState(true);
 
 
   //
@@ -39,7 +40,7 @@ const Overview = (props) => {
       }
       {/* <div>{selectedStyle}</div> */}
       <div className='rightPanel'>
-        <ProductInformationContainer product={props.product} sale_price={selectedStyle.sale_price} original_price ={selectedStyle.original_price}></ProductInformationContainer>
+        <ProductInformationContainer product={props.product} sale_price={selectedStyle.sale_price} original_price ={selectedStyle.original_price} hasReviews={hasReviews}></ProductInformationContainer>
 
         <StyleSelectorContainer productStyles={props.productStyles} setSelectedStyle={setSelectedStyle} selectedStyle={selectedStyle}theme={props.theme} ></StyleSelectorContainer>
 

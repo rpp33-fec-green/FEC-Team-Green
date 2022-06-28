@@ -11,19 +11,23 @@ const ProductInformationContainer = (props) => {
   // default_price
   // id
 
+
   if (props.product && Object.keys(props.product).length > 1) {
     return (
       <div className='information panel'>
-        {/* <div className='stars'>stars</div> */}
-        <StarRating rating={3.5}/>
-        <ReadReviewsLink></ReadReviewsLink>
+        <div id={'stars-reviews'}>
+          <StarRating rating={3.5}/>
+          <ReadReviewsLink hasReviews={props.hasReviews}></ReadReviewsLink>
+        </div>
         {props.product.category ? <h2 className='category'>{props.product.category}
         </h2> : <h2 className='category ghost'>...loading
         </h2>}
         { props.product.name ? <h1 className='name'>{props.product.name}</h1> : <h1 className='name ghost'>...loading</h1>
         }
 
-        { props.sale_price ? <span><p className='price-sale'>${props.sale_price}</p> <p className='price-struck'>${props.original_price}</p> </span> : props.original_price ? <p className='price'>${props.original_price}</p> : <p className='price ghost'>...loading</p> }
+        {props.original_price ? props.sale_price ?
+          <span><p className='price-sale'>${props.sale_price}</p> <p className='price-struck'>${props.original_price}</p> </span> :
+          <p className='price'>${props.original_price}</p> : props.product.default_price ? <p className='price'> ${props.product.default_price}</p> : <p className='price ghost'>...loading</p>}
 
       </div>
 
