@@ -8,7 +8,7 @@ import AddToBagButton from './AddToBagButton.jsx';
 
 const SelectProductContainer = (props) => {
 
-  const [sizeAndQuantity, setSizeAndQuantity] = useState({'size': 'Select Size', 'quantity': '-', 'skuId': ''});
+  const [sizeAndQuantity, setSizeAndQuantity] = useState({'size': 'SELECT SIZE', 'quantity': '-', 'skuId': ''});
   const [inStock, setInStock] = useState(false);
 
   var sizes = {};
@@ -49,6 +49,7 @@ const SelectProductContainer = (props) => {
         inStock={inStock}/>
       <AddToBagButton
         sizeAndQuantity={sizeAndQuantity}
+        setSizeAndQuantity={setSizeAndQuantity}
         theme={props.theme}
         inStock={inStock}/>
       <SelectOutfitButton

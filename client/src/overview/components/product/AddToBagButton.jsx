@@ -11,7 +11,7 @@ const AddToBagButton = (props) => {
   //selectedStyleQuantity
 
   var onClick = () => {
-    if (props.sizeAndQuantity.size === 'Select Size' ) {
+    if (props.sizeAndQuantity.size === 'SELECT SIZE' ) {
       var select = $('#ss');
       var len = select[0].length;
       $('#ss').attr('size', len);
@@ -38,7 +38,8 @@ const AddToBagButton = (props) => {
       })).then(()=>{
         console.log('succesfully posted to cart API');
         //reset size and quantity state
-        props.setSizeAndQuantity({...props.sizeAndQuantity, size: 'Select Size', quantity: '-', skuId: ''});
+        console.log('PROPS HERE', props);
+        props.setSizeAndQuantity({...props.sizeAndQuantity, size: 'SELECT SIZE', quantity: '-', skuId: ''});
         // $('select-size')
         //reset size selector
         var sizeSelector = document.querySelector('.select-size').querySelector('option');
@@ -54,7 +55,7 @@ const AddToBagButton = (props) => {
       })
         .catch(error => {
         // react on errors.
-          console.log('error', error);
+          console.log('error -->', error);
         });
     }
     //style={document.querySelector('#ss').querySelector('option')[0]}
@@ -64,7 +65,7 @@ const AddToBagButton = (props) => {
   return (
     // <button id={`addQuestion-button-${props.theme}`} type="button" onClick={showModal}>ADD TO BAG +</button>
     <button className ={`select-bag ${props.theme} ${props.inStock ? '' : 'hidden'}`} id='select-bag' onClick={onClick} style ={{display: props.inStock ? 'block' : 'none'}} >
-  Add To Bag
+ ADD TO BAG
     </button>
   );
 };

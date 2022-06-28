@@ -19,7 +19,7 @@ const SelectSizeDropdown = (props) => {
 
   //display OUT OF STOCK if no stock available
 
-  props.inStock ? options.unshift(<option key={0}>{'Select Size'}</option>) : options.unshift(<option key={0}>{'OUT OF STOCK'}</option>);
+  props.inStock ? options.unshift(<option key={0}>{'SELECT SIZE'}</option>) : options.unshift(<option key={0}>{'OUT OF STOCK'}</option>);
 
 
   // options[0].props.children === 'OUT OF STOCK' ? props.setInStock(false) : props.setInStock(true);
@@ -31,7 +31,7 @@ const SelectSizeDropdown = (props) => {
       onChange={(e)=> {
         if (props.sizeAndQuantity.quantity === '-' ) {
           props.setSizeAndQuantity({...props.sizeAndQuantity, size: e.target.value, quantity: 1, skuId: props.sizes[e.target.value].skuId });
-        } else if (e.target.value === 'Select Size') {
+        } else if (e.target.value === 'SELECT SIZE') {
           props.setSizeAndQuantity({ ...props.sizeAndQuantity, size: e.target.value, quantity: '-', skuId: ''} );
         } else {
           props.setSizeAndQuantity({...props.sizeAndQuantity, size: e.target.value, skuId: props.sizes[e.target.value].skuId} );
