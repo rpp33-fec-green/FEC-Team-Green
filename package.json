@@ -56,6 +56,7 @@
     "http-proxy-middleware": "^2.0.3",
     "jquery": "^3.6.0",
     "multer": "^1.4.4",
+    "nodemon": "^2.0.18",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
@@ -65,6 +66,5 @@
     "shrink-ray-current": "^4.1.3",
     "style-loader": "^3.3.1",
     "styled-components": "^5.3.3"
-   
   }
 }

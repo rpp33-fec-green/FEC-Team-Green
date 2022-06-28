@@ -62,9 +62,9 @@ const AddToBagButton = (props) => {
 
 
   return (
-
+    // <button id={`addQuestion-button-${props.theme}`} type="button" onClick={showModal}>ADD TO BAG +</button>
     <button className ={`select-bag ${props.theme} ${props.inStock ? '' : 'hidden'}`} id='select-bag' onClick={onClick} style ={{display: props.inStock ? 'block' : 'none'}} >
-      Add To Bag
+  Add To Bag
     </button>
   );
 };
