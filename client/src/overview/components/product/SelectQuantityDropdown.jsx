@@ -5,8 +5,8 @@ const SelectQuantityDropdown = (props) => {
 // create the options for quantities
   var i = 1;
   var options = [];
-  // if ( Object.keys(props.sizes).length > 0 && props.sizeAndQuantity.size !== 'Select Size') {
-  if (props.inStock && props.sizeAndQuantity.size !== 'Select Size') {
+  // if a size has already been selected, loop through and provide avaliable quantities up to 15
+  if (props.inStock && props.sizeAndQuantity.size !== 'SELECT SIZE') {
 
     while (i < 16 && i <= props.sizes[props.sizeAndQuantity.size].quantity) {
       options.push(<option key={i}>{i}</option>);
