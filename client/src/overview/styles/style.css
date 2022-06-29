@@ -161,21 +161,6 @@ ul {
   color: red;
   font-size: .8em;
 }
-#moreQuestions-button-light-theme, #addQuestion-button-light-theme {
-  margin-right: 20px;
-  background: none;
-  border: 1px solid #404040;
-  font-weight: bold;
-}
-#moreQuestions-button-dark-theme, #addQuestion-button-dark-theme {
-  margin-right: 20px;
-  background: #121212;
-  border: 1px solid #7ACC7A;
-  font-weight: bold;
-  color: #7ACC7A;
-}
-
-
 .select-bag {
   height: 50px;
   width: 200px;
