@@ -49,8 +49,23 @@ GITHUB_API_KEY=123Jkldsufihflka32484r703utirjk
  ## Project Widgets
 ---
   ### Product Overview
-* TBD
----
+  * The Product Overview presents the product to the user.  It displays the price and specific product details as well as an image gallery.
+ 
+  
+* The image gallery contains an image carousel that allows users to select alternate photos.
+  ![ImageCarousel](https://user-images.githubusercontent.com/8378155/176329878-788b32d0-c888-4f09-92ee-5b67e107355a.gif)
+  
+
+
+*If the main image is clicked, it will enter modal the user can then zoom into to get a better look at the product.
+![ImageZoomModel](https://user-images.githubusercontent.com/8378155/176337427-b1208961-d07b-4210-a098-0b4f82abe121.gif)
+
+* There are also icons on the right side that allow the user to select different styles from a product.
+![StyleSelector](https://user-images.githubusercontent.com/8378155/176330502-e7f7037b-395c-42e9-a05d-619d093bc98c.gif)
+
+*The Product Overview also allows users to select products and sizes and adds them to the shopping cart.
+---![AddTobag](https://user-images.githubusercontent.com/8378155/176339917-cd1ebcaa-56d2-4819-aa90-0ced0beb695d.gif)
+
   ### Questions and Answers
 * This feature displays any questions associated with this product along with any answers associated with each question. The user can load more questions (2 at a time) using the "More Answered Questions" button which will disappear if there are no more questions. They are also able to load the rest of the answers by clicking the "Load More Answers" text and only show 2 answers by clicking the "Collapse Answers" text.
 
@@ -100,12 +115,11 @@ https://user-images.githubusercontent.com/88808070/175218424-8d3e0aaf-1d2c-4b15-
 ---
   ## Dark Mode
 
-![fec-darkMode-GIF](https://user-images.githubusercontent.com/89096566/174424293-53755bd7-26c7-4907-a9e7-4d9a9d6e1e5e.gif)
-  
+<!-- ![fec-darkMode-GIF](https://user-images.githubusercontent.com/89096566/174424293-53755bd7-26c7-4907-a9e7-4d9a9d6e1e5e.gif) -->
+![DarkMode](https://user-images.githubusercontent.com/8378155/176341935-926e0ef0-bf16-4eb5-af35-dff5a69abf6f.gif)
 ---
   ## Team Members
 
-  * Christian Ortiz
   * Wen Dai
   * Joann Whang
   * Chloe Meinshausen
